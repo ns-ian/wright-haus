@@ -1,0 +1,74 @@
+@media only screen and (max-width: 768px) {
+  .b div {
+    font-size: 2vw;
+    letter-spacing: 0.4vw;
+  }
+
+  h1 {
+    font-size: 11vw;
+    letter-spacing: 1.5vw;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .b div {
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+
+  h1 {
+    font-size: 80px;
+    letter-spacing: 4px;
+  }
+}
+
+body {
+  background-color: #737373;
+}
+
+.b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.b div {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  font-family: Georgia, serif;
+  color: #e1ca80;
+}
+
+.f {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  color: #e1ca80;
+  font-style: italic;
+}
+
+a:link {
+  text-decoration: none;
+  color: #e1ca80;
+  font-style: italic;
+}
+
+a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: #e1ca80;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: #e1ca80;
+}
+
+img {
+  width: 100%;
+}
+
