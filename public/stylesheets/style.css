@@ -8,6 +8,10 @@
     font-size: 11vw;
     letter-spacing: 1.5vw;
   }
+
+  img {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -66,9 +70,5 @@ a:hover {
   text-decoration: none;
   font-weight: bold;
   color: #e1ca80;
-}
-
-img {
-  width: 100%;
 }
 
